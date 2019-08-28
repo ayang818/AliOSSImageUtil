@@ -5,9 +5,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 
 public class Main {
-    private static String FILEPATH = "C://Users/86137/Desktop/aliosstest.jpg";
-    private static String FILEPATH2 = "C://Users/86137/Desktop/test.png";
-
+    private static String FILEPATH = "<File Address in your computer>";
+    private static String FILEPATH2 = "<File Address in your computer>";
+    
     public static void main(String[] args) throws FileNotFoundException {
         String[] strings = FILEPATH.split("/");
         String filedir = "image";
